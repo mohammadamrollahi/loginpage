@@ -1,0 +1,126 @@
+@font-face{
+    font-family: nazanin;
+    src: url(./B\ Nazanin.ttf);
+}
+body
+{
+ background-image: url("./bg.jpg");
+ direction: rtl;
+}
+.mytitle
+{
+    text-align: center;
+    margin-top: 40px;
+    color:white;
+    font-family:nazanin;
+font-size: 37pt;
+}
+.mytitle3
+{
+    text-align: center;
+    margin-top: 5px;
+    color:white;
+    font-family:nazanin;
+    font-size: 15pt;
+}
+.myform
+{
+    width:25%;
+    height: 500px;
+    border:0px solid black;
+    margin:0 auto 0;
+    position: relative;
+    top:70px;
+}
+::placeholder
+{
+    color:white;
+}
+
+.usernamediv
+{
+    width:100%;
+    height:70px ;
+}
+.passworddiv
+{
+width:100%;
+height:100px;
+}
+.usernameinput
+{
+    
+    width:100%;
+    height:40px;
+    border:0px;
+    font-family:nazanin;
+    font-size: 15pt;;
+    border-bottom: 2px solid white !important;
+    background-color: transparent;
+   
+    color: white;
+}
+.passwordinput
+{
+    width:100%;
+    height:40px;
+    border:0px;
+    font-family:nazanin;  
+    font-size:15pt;;
+    border-bottom: 2px solid white !important;
+    background-color: transparent;
+    color: white;
+}
+.usernameinput:focus
+{
+    outline:0px;
+}
+.passwordinput:focus
+{
+    outline:0px;
+}
+.mybutton
+{
+    width:100%;
+    height:50px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #1d89e4;
+    font-family:nazanin;
+    font-size: 20pt;
+
+    color: white;
+}
+
+.rememberdiv
+{
+   
+    width:120px;
+    height:30px;
+    display: inline-block;
+
+}
+.remembercontent
+{
+    font-family: nazanin;
+    color:white;
+    font-size: 12pt;
+}
+.forgetcontent
+{
+    font-family: nazanin;
+    color:white;
+    font-size: 12pt;
+    float: left;
+    text-decoration:none;
+
+}
+#icons
+{
+ 
+float:left;
+position: relative;
+top:-25px;
+color: white;
+
+}
